@@ -1,3 +1,78 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    padding: 0;
+}
+
+.containerOuter {
+    min-width: 327px;
+    min-height: 780px;
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+    background-image: url(./images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.containerInner {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.headline {
+    margin-top: 17rem;
+}
+
+.headline h1,
+.bottomStats h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.headline span {
+    color: hsl(277, 64%, 61%)
+}
+
+.headline h1,
+.midDescription p,
+.bottomStats h2,
+.bottomStats p {
+    text-align: center;
+}
+
+.midDescription p,
+.bottomStats p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+.midDescription p {
+    line-height: 2;
+}
+
+.bottomStats p {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.bottomStats h2 {
+    margin-bottom: 0;
+}
+
+.bottomStats h2:first-child {
+    margin-top: 2rem;
+}
+
+@media (min-width: 450px)
