@@ -29,6 +29,25 @@ body {
     border-radius: 8px 8px 0 0;
 }
 
+/* THE PURPLE TINT CODE IS FROM https: //www.frontendmentor.io/profile/Drougnov */
+/* CODE START */
+.heroImage {
+    position: relative;
+}
+
+.heroImage::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: hsla(277, 64%, 40%, 0.6);
+    top: 0;
+    left: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+/* CODE END */
+
 .headline h1,
 .bottomStats h2 {
     color: hsl(0, 0%, 100%);
@@ -101,6 +120,10 @@ body {
         border-radius: 0 8px 8px 0;
         width: auto;
         float: right;
+    }
+
+    .heroImage::after {
+        border-radius: 0 8px 8px 0;
     }
 
     .headline h1 {
