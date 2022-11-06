@@ -39,7 +39,7 @@ body {
     position: absolute;
     content: "";
     width: 100%;
-    height: 100%;
+    height: 98.5%;
     background: hsla(277, 64%, 40%, 0.6);
     top: 0;
     left: 0;
@@ -118,12 +118,15 @@ body {
 
     .heroImage img {
         border-radius: 0 8px 8px 0;
-        width: auto;
+        width: 100%;
+        height: 99.8%;
         float: right;
     }
 
     .heroImage::after {
         border-radius: 0 8px 8px 0;
+        width: 100%;
+        height: 100%;
     }
 
     .headline h1 {
