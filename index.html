@@ -18,18 +18,29 @@
     <!-- MOBILE FIRST DESIGN -->
     <!-- NON-RESPONSIVE DESIGN -->
     <div class="containerOuter">
-        <div class="containerInner">            
 
-            <section class="headline">
-                <h1>Get <span>insights</span> that helps your business grow.</h1>
-            </section>
+        <!-- HERO IMAGE ON THE TOP -->
+        <section class="heroImage">
+            <picture>
+                <source media="(min-width:1200px)" srcset="./images/image-header-desktop.jpg">
+                <source media="(min-width:300px)" srcset="./images/image-header-mobile.jpg">
+                <img src="./images/image-header-mobile.jpg" alt="Hero image">
+            </picture>
+        </section>
 
-            <section class="midDescription">
+        <!-- REST OF THE CONTENT -->
+        <section class="content">
+
+            <div class="headline">
+                <h1>Get <span>insights</span> that help your business grow.</h1>
+            </div>
+
+            <div class="midDescription">
                 <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
                     experience, and overall efficiency.</p>
-            </section>
+            </div>
 
-            <section class="bottomStats">
+            <div class="bottomStats">
                 <div class="statTop">
                     <h2>10k+</h2>
                     <p>Companies</p>
@@ -42,8 +53,9 @@
                     <h2>12M+</h2>
                     <p>Queries</p>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </div>
 
 </body>
